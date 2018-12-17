@@ -1,0 +1,511 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+
+body {
+  font-size: 14px;
+}
+
+a {
+    color: #0070c9;
+}
+a:hover{
+  cursor: pointer;
+}
+
+i{
+  font-size: 20px !important;
+}
+
+h1, h2, h3, h4 {
+    font-size: 22px;
+    font-weight: 800;
+    margin-top: 0;
+    margin-bottom: 20px;
+
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+p, ol, ul, li {
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+ul
+{
+    list-style: none;
+}
+
+svg {
+    display: block;
+    margin: 1em auto;
+  }
+  p {
+    color: #aaa;
+    text-align: center;
+    margin: 2em 0;
+  }
+
+  line {
+	stroke-width:8px;
+	border:200px dotted transparent;
+	}
+
+.hr
+{
+    height:0; border-top:1px solid _anycolor_;
+    margin-top:-15px;
+    margin-bottom:-5px;
+    background-color: #eee;
+    border: 0 none;
+    color: #eee;
+    height: 1px;
+}
+.section-keyline{
+    border-bottom:0;
+    border-top:1px solid rgba(192,192,192,0.3);
+    height:1px;
+    margin-left:40px;
+    margin-top: 35px;
+    margin-bottom: 75px;
+    width:93%;
+    }
+
+
+.section-spacer{
+  display: inline-block;
+    margin-top: 35px;
+    margin-bottom: 75px;
+  }
+.right{
+  float: right;
+}
+
+.bold{
+
+    font-weight: 700;
+  }
+
+.container-fluid {
+    height: 100%;
+}
+
+.row {
+    height: 100%;
+}
+
+.centero{
+  text-align: center;
+}
+
+.center {
+  margin: auto;
+  padding-left: 5%;
+}
+
+.w-20 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 20% !important;
+          flex: 0 0 20% !important;
+  max-width: 20%;
+}
+
+/*********EXPAND PANEL***********/
+.panel-default {
+    position: absolute;
+    right:0px;
+    z-index:1000000;
+}
+/*********EXPAND PANEL***********/
+
+/*********TOPBAR***********/
+.navbar {
+    background:transparent;
+    background-image:none;
+    margin-bottom: 0px !important;
+    border-color:transparent;
+    font-size: 17px;
+      line-height: 3.14286;
+      font-weight: 400;
+      letter-spacing: -.01em;
+      font-size:16px;
+      line-height:3.14286;
+      font-weight:100;
+      letter-spacing:-.01em;
+      font-family:"SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica";
+  }
+
+  .topbar li{
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+  .topbar a{
+    color: #494949;
+  }
+  .topbar-profile{
+      flex-wrap: wrap;
+ }
+
+ .topbar-profile li{
+    margin-right: 5px;
+}
+
+.topbar-collapse  {
+      margin-left: 35%;
+  }
+  .topbar_dropdown_container {
+  display: none;
+  flex-wrap: wrap;
+  position: fixed;
+}
+
+.topbar_link_c{
+  margin-top: 10px;
+}
+
+a[data-id=category]:hover + ul {
+  display: block !important;
+}
+
+a[data-id=genre]:hover + ul {
+  display: block !important;
+}
+
+ul[ref=category]:hover ul.dropdown-menu {
+  display: block !important;
+}
+
+
+/*********TOPBAR***********/
+
+
+/*********Navigation bar***********/
+
+
+
+
+#navbar{
+    width: 100%;
+        height: 90px;
+        margin: 0 auto;
+        background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  height: 50px;
+  width: 200px;
+  position: relative;
+  left: 30px;
+  top: 8px;
+  background-color: #596273;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+a.logo{
+  color: #ffff;
+}
+
+.nav i{
+  color: #494949;
+}
+
+.heading-text-section {
+  margin-left: 7px;
+  vertical-align: text-top;
+  position: relative;
+  top: -5px;
+}
+
+.heading-text-small p {
+  font-size: 12px;
+}
+
+.heading-text-small p a span{
+  font-size: 15px;
+}
+
+.navbar-items{
+  padding-top: 5px;
+}
+
+/*********Navigation bar***********/
+
+/*********CAROUSEL***********/
+
+.carousel-c {
+    position: unset;
+    background-color: #596273;
+    width: auto;
+    height: 400px;
+}
+
+.carousel-item{
+    padding-top: 50px;
+}
+.carousel-item img{
+  width: 400px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-text-container h2{
+  font-weight: 400;
+  color: #ffff;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.carousel-text-container p{
+  color: #ffff;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.carousel-button-group{
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+/*********CAROUSEL***********/
+
+
+
+
+/*********PRODUCTS***********/
+.product-container{
+}
+.product-container:hover ~ .cart-button{
+  display: block;
+}
+.product-container {
+  text-align: left;
+}
+
+.product-container p {
+  text-align: left;
+}
+
+.cart-button{
+  display: none;
+}
+
+
+.product-name{
+    margin-bottom: 10px;
+  color: #000000;
+
+}
+
+.product-price{
+  color: #818181;
+}
+
+a.product-container{
+  text-decoration: none;
+  color: #000000;
+}
+
+a.product-container:hover{
+  text-decoration: none;
+  color: #000000;
+}
+
+.product-description {
+  font-style: italic;
+  /* hide text if it more than N lines  */
+  overflow: hidden;
+  /* for set '...' in absolute position */
+  position: relative;
+  /* use this value to count block height */
+  line-height: 1.2em;
+  /* max-height = line-height (1.2) * lines max number (3) */
+  max-height: 3.6em;
+  /* fix problem when last visible word doesn't adjoin right side  */
+  text-align: left;
+  /* place for '...' */
+  margin-right: -1em;
+  padding-right: 1em;
+}
+/* create the ... */
+.product-description:before {
+  /* points in the end */
+  content: '...';
+  /* absolute position */
+  position: absolute;
+  /* set position to right bottom corner of block */
+  right: 0;
+  bottom: 0;
+}
+/* hide ... if we have text, which is less than or equal to max lines */
+.product-description:after {
+  /* points in the end */
+  content: '';
+  /* absolute position */
+  position: absolute;
+  /* set position to right bottom corner of text */
+  right: 0;
+  /* set width and height */
+  width: 1em;
+  height: 1em;
+  margin-top: 0.2em;
+  /* bg color = bg color under block */
+  background: white;
+}
+/*********PRODUCTS***********/
+
+
+/*********TRENDING PRODUCTS SECTION***********/
+.trending-product{
+  margin: 50px 20px 10px 20px;
+}
+ .trending-product-img{
+    width: 100%;
+}
+
+.trending-header{
+  text-align: center;
+}
+
+.trending-header h2{
+  color: #596172;
+  weight: 600;
+  margin-bottom: 35px;
+}
+
+.section-theme{
+  position: absolute;
+  top: 515px;
+  left: -10px;
+  right:0px;
+  bottom: 0px;
+  width: 400px;
+  height: 400px;
+}
+
+
+.section-theme img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+/*********TRENDING PRODUCTS SECTION***********/
+
+
+/*********FOOTER***********/
+
+.main-footer{
+  background-color: #596273;
+  width: auto;
+  height: 200px;
+}
+
+.footer{
+  padding-top: 50px;
+}
+
+.footer-quicklinks{
+    width: 75%;
+    margin-bottom: 35px;
+}
+
+.footer-quicklinks a{
+  font-size: 14px;
+  color: #E9E9E9;
+  weight: 400;
+}
+
+.footer-quicklinks a:hover{
+  color: #E9E9E9;
+  text-decoration: none;
+  pointer-events:
+}
+
+.footer-social{
+    width: 45%;
+}
+
+.copyright{
+  background-color: #E9E9E9;
+  width: auto;
+  height: 50px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+
+.icon {
+	position:relative;
+	text-align:center;
+	width:0px;
+	height:0px;
+	padding:20px;
+	border-top-right-radius: 	20px;
+	border-top-left-radius: 	20px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 	20px;
+	-moz-border-radius: 		20px 20px 20px 20px;
+	-webkit-border-radius: 		20px 20px 20px 20px;
+	-khtml-border-radius: 		20px 20px 20px 20px;
+	color:#FFFFFF;
+}
+.icon i {
+	position:absolute;
+	left:9px;
+	top:10px;
+}
+.icon.social {
+	float:left;
+	margin:0 5px 0 0;
+	cursor:pointer;
+	background:#E9E9E9 ;
+	color:#262626;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+}
+.icon.social:hover {
+	background:#262626 ;
+	color:#6d6e71;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+	-webkit-filter:	drop-shadow(0 1px 10px rgba(0,0,0,.8));
+	-moz-filter: 	drop-shadow(0 1px 10px rgba(0,0,0,.8));
+	-ms-filter: 		drop-shadow(0 1px 10px rgba(0,0,0,.8));
+	-o-filter: 		drop-shadow(0 1px 10px rgba(0,0,0,.8));
+	filter: 			drop-shadow(0 1px 10px rgba(0,0,0,.8));
+}
+.icon.social.fb i {
+	left:13px;
+	top:10px;
+}
+.icon.social.tw i {
+	left:11px;
+}
+.icon.social.in i {
+	left:11px;
+}
+
+
+/*********FOOTER***********/
+
+
+}
